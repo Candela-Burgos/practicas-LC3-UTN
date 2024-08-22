@@ -1,1 +1,1 @@
-# practicas-obligatorias-lc3-UTN
+# practicas-LC3-UTN
