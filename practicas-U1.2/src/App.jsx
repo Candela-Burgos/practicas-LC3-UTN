@@ -5,9 +5,9 @@ import { beers } from "./data/data"
 function App() {
   return (
     <>
-      <Beers beers={beers}/>
+      <Beers beers={beers} />
     </>
-  )
+  );
 }
 
 export default App

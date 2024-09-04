@@ -3,13 +3,12 @@ import PropTypes from "prop-types";
 const BeerItem = ({ name, style, price, available }) => {
   return (
     <>
-      {/* <div>
-        {
+      <div>
         <h2>{name}</h2>
         <p>{style}</p>
-        <p>{price}</p>
-        <p>{available}</p>}
-      </div> */}
+        <p>{price * 1350}</p>
+        <p>{available == true ? "Disponible" : "No disponible"}</p>
+      </div>
     </>
   );
 };
